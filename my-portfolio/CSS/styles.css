@@ -72,11 +72,14 @@ html{
 }
 .home{
     display: flex;
-    /* background: url(../Pics/back2.jpg) no-repeat center; */
+    background: url(../Pics/back4.jpg)  no-repeat center;
+    background-size: 68%;
+    background-position-x: 98%;
+    background-position-y: 7%;
     height: 100vh;
     color: #111;
     min-height: 500px;
-    background-size: cover;
+    /* background-size: cover; */
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -136,6 +139,7 @@ html{
 }
 .home .home-content .text-3 span{
     color: crimson;
+    transition: all 0.3s ease;
     font-weight: 500;
 }
 .home .home-content .icons{
