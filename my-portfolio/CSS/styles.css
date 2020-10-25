@@ -73,15 +73,47 @@ html{
 .home{
     display: flex;
     background: url(../Pics/back4.jpg)  no-repeat center;
-    background-size: 68%;
-    background-position-x: 98%;
-    background-position-y: 7%;
+    background-size: 85%;
+    background-position-x: 105%;
+    background-position-y: 65%;
     height: 100vh;
     color: #111;
     min-height: 500px;
     /* background-size: cover; */
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+}
+
+@media (min-width: 952px) and (max-width: 1290px) {
+    .home{
+        display: flex;
+        background: url(../Pics/back4.jpg)  no-repeat center;
+        background-size: 84%;
+        background-position-x: 105%;
+        background-position-y: 65%;
+        height: 100vh;
+        color: #111;
+        min-height: 500px;
+        /* background-size: cover; */
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
+
+@media (max-width: 951px) {
+    .home{
+        display: flex;
+        background: none;
+        background-size: 84%;
+        background-position-x: 105%;
+        background-position-y: 65%;
+        height: 100vh;
+        color: #111;
+        min-height: 500px;
+        background-size: contain;
+        background-attachment: fixed;
+        font-family: 'Ubuntu', sans-serif;
+    }
 }
 
 /*Menu Button*/
